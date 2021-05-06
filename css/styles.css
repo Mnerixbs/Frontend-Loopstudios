@@ -1,0 +1,348 @@
+/* font-family: 'Alata', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+gris 	#8c8c8c
+gris2 #696969
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo{
+  line-height: 80px;
+  margin-left: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 15px;
+}
+nav a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+}
+nav{
+    background-color: transparent;
+    height: 80px;
+    width: 100%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 30px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+
+}
+.icon-open{
+    display: none;
+    float: right;
+    margin-right: 20px;
+    background: transparent;
+    border: transparent;
+    background: url(../images/icon-hamburger.svg) no-repeat;
+    background-size: cover;
+    height: 20px;
+    width: 30px;
+    margin-top: 30px;  
+}
+.icon-close{
+    float: right;
+    background: url(../images/icon-close.svg) no-repeat;
+    height: 40px;
+    width: 30px;
+    border: transparent;
+    margin-top: 30px; 
+    margin-right: 20px;
+}
+.dpn{
+    display: none;
+}
+
+.principal{
+    background: url(../images/desktop/image-hero.jpg) no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.immer{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.immer .col-lg-6{
+    border: 3px solid white;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.leader{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.bgw{
+    background-color: white;
+    padding-top: 150px;
+    padding-left: 80px;
+    margin-bottom: 0px;
+}
+.bgw h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.bgw p { 
+    margin-left: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+.img-leadermv{
+    display: none;
+}
+.btn-primary {
+    color: black;
+    background-color: white;
+    border-color: #000000;
+    height: 40px;
+    border-radius: 0px;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 5px;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+.btn2{
+    display: none;
+}
+.creations{
+    padding: 3rem;
+}
+.creations h1{
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.creations .col-lg-3 {
+    height: 400px;
+    width: 270px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+.creations p{
+    font-size: 20px;
+}
+.earth{
+    background-image: url(../images/desktop/image-deep-earth.jpg) ;
+    background-size: cover;
+}
+.arcade{
+    background-image: url(../images/desktop/image-night-arcade.jpg) ;
+    background-size: cover;
+}
+.soccer{
+    background-image: url(../images/desktop/image-soccer-team.jpg) ;
+    background-size: cover;
+}
+.grid{
+    background-image: url(../images/desktop/image-grid.jpg) ;
+    background-size: cover;
+}
+.from{
+    background-image: url(../images/desktop/image-from-above.jpg) ;
+    background-size: cover;  
+}
+.pocket{
+    background-image: url(../images/desktop/image-pocket-borealis.jpg) ;
+    background-size: cover;
+}
+.curiosity{
+    background-image: url(../images/desktop/image-curiosity.jpg) ;
+    background-size: cover;
+}
+.make{
+    background-image: url(../images/desktop/image-fisheye.jpg) ;
+    background-size: cover;
+}
+footer{
+    background-color: black;
+}
+ .foot-ul{
+    float: left;
+    padding-left: 0px;
+} 
+ footer ol li{
+    display: inline-block;
+    margin-right: 10px;    
+} 
+footer ol li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Alata', sans-serif;
+}
+footer a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+} 
+footer p{
+    color: #717171;
+    font-family: 'Alata', sans-serif;
+}
+
+.fab{
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+
+
+
+@media (max-width: 765px){
+    .mob{
+        margin-bottom: 10px;
+    }
+    footer ol li {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px; 
+    }
+    .creations .col-lg-3 {
+        height: 110px;    
+        width: 100%;  
+        
+    }
+    .btn1{
+        display: none;
+    }
+    .btn2{
+        display: block;
+    }
+    .creations h1{  
+        text-align: center        ;
+    }
+    .img-leader{
+        display: none;
+    }
+    .img-leadermv{
+        display: block;
+    }
+    .bgw{
+        background-color: white;
+        padding-top: 150px;
+        padding-left: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .principal{
+        background: url(../images/mobile/image-hero.jpg) no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+   
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: black;
+        padding-top: 35%;
+        left: -100%;        
+        transition: all .5s;
+    }
+    .ul2{
+        left: 0; 
+    }
+    .navbgb{
+        transition: all .5s;
+        background: black;        
+    } 
+    
+    nav ul li{
+        display: block;
+        line-height: 80px;     
+        font-family: 'Alata', sans-serif;
+    }
+    nav ul li a {
+        font-family: 'Alata', sans-serif;
+        font-size: 36px;
+        text-transform: uppercase;
+    }
+    .logo{
+        margin-left: 25px;
+    }  
+    .immer .col-lg-6 {
+        border: 3px solid white;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 40px;
+        margin-left: 17px;
+        margin-right: 10px;
+        width: 90%;
+    }
+    .earth{
+        background-image: url(../images/mobile/image-deep-earth.jpg) ;
+        background-size: cover;
+    }
+    .arcade{
+        background-image: url(../images/mobile/image-night-arcade.jpg) ;
+        background-size: cover;
+    }
+    .soccer{
+        background-image: url(../images/mobile/image-soccer-team.jpg) ;
+        background-size: cover;
+    }
+    .grid{
+        background-image: url(../images/mobile/image-grid.jpg) ;
+        background-size: cover;
+    }
+    .from{
+        background-image: url(../images/mobile/image-from-above.jpg) ;
+        background-size: cover;  
+    }
+    .pocket{
+        background-image: url(../images/mobile/image-pocket-borealis.jpg) ;
+        background-size: cover;
+    }
+    .curiosity{
+        background-image: url(../images/mobile/image-curiosity.jpg) ;
+        background-size: cover;
+    }
+    .make{
+        background-image: url(../images/mobile/image-fisheye.jpg) ;
+        background-size: cover;
+    }
+   
+}
+
+@media (max-width: 952px){
+    nav ul li a{
+        font-size: 16px;
+        font-family: 'Alata', sans-serif;
+    }
+      .icon-open{
+        display: block;
+    }  
+    .dpn{
+        display: none;
+    }
+    
+}
